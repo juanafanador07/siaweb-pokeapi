@@ -1,0 +1,36 @@
+.card {
+  max-width: 10rem;
+  background: white;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  width: fit-content;
+  filter: drop-shadow(0px 2px 5px rgba(0, 0, 0, 0.1));
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card__img {
+  width: 100%;
+  height: auto;
+  background: rgb(240, 240, 240);
+  border-radius: 1rem;
+}
+
+.card__id {
+  color: rgb(67, 67, 67);
+  margin: 0.5rem 0;
+}
+
+.card__title {
+  font-size: x-large;
+  margin: 0.5rem 0;
+}
+
+.card__tag-container {
+  display: flex;
+  gap: 0.5rem;
+}

@@ -1,0 +1,23 @@
+html {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: rgb(253, 253, 253);
+  margin: 2rem;
+}
+
+main {
+  max-width: 1024px;
+  margin: 5rem auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: initial;
+}
